@@ -1,9 +1,6 @@
 import Head from "next/head";
-
-import { Inter } from "next/font/google";
-import { ChakraProvider, Center, Image, Box } from "@chakra-ui/react";
-
-const inter = Inter({ subsets: ["latin"] });
+import { ChakraProvider, Center, Box, Image } from "@chakra-ui/react";
+import { FaTwitter, FaYoutube } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -27,8 +24,27 @@ export default function Home() {
             </Center>
             <Box boxSize="sm">
               <Image src="/sala.png" alt="logo" />
-            </Box>{" "}
+            </Box>
           </h1>
+        </Center>
+
+        <Center>
+          <a
+            href="https://twitter.com/Saladesecacao"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ fontSize: "50px" }} // Ajuste o tamanho dos ícones aqui
+          >
+            <FaTwitter />
+          </a>
+          <a
+            href="https://www.youtube.com/@SaladeSecacao"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ fontSize: "50px" }} // Ajuste o tamanho dos ícones aqui
+          >
+            <FaYoutube />
+          </a>
         </Center>
       </ChakraProvider>
     </>
