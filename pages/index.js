@@ -1,6 +1,6 @@
 import Head from "next/head";
 import { ChakraProvider, Center, Box, Image } from "@chakra-ui/react";
-import { FaTwitter, FaYoutube } from "react-icons/fa";
+import { FaTwitter, FaYoutube, FaInstagram, FaTiktok } from "react-icons/fa";
 
 export default function Home() {
   return (
@@ -45,6 +45,22 @@ export default function Home() {
             style={{ fontSize: "50px", padding: "20px" }} // Ajuste o tamanho dos ícones aqui
           >
             <FaYoutube />
+          </a>
+          <a
+            href="https://www.instagram.com/saladesecacao/"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ fontSize: "50px", padding: "20px" }} // Ajuste o tamanho dos ícones aqui
+          >
+            <FaInstagram />
+          </a>
+          <a
+            href="https://www.tiktok.com/@saladeseca?lang=pt-BR"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{ fontSize: "50px", padding: "20px" }} // Ajuste o tamanho dos ícones aqui
+          >
+            <FaTiktok />
           </a>
         </Center>
       </ChakraProvider>
