@@ -1,8 +1,7 @@
 import Head from "next/head";
-import Image from "next/image";
+
 import { Inter } from "next/font/google";
-import styles from "@/styles/Home.module.css";
-import { ChakraProvider, Center } from "@chakra-ui/react";
+import { ChakraProvider, Center, Image, Box } from "@chakra-ui/react";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -18,11 +17,18 @@ export default function Home() {
       <ChakraProvider>
         <Center>
           <h1>
-            <br/>
-            <br/>
-            <div>Sala de Secação</div>
-            <div>Em Construção</div>
-          </h1> 
+            <br />
+            <br />
+            <Center>
+              <div>Sala de Secação</div>
+            </Center>
+            <Center>
+              <div>Em Construção</div>
+            </Center>
+            <Box boxSize="sm">
+              <Image src="/sala.png" alt="logo" />
+            </Box>{" "}
+          </h1>
         </Center>
       </ChakraProvider>
     </>
