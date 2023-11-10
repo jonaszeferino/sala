@@ -33,15 +33,16 @@ export default function Home() {
             href="https://twitter.com/Saladesecacao"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ fontSize: "50px" }} // Ajuste o tamanho dos ícones aqui
+            style={{ fontSize: "50px", padding: "20px" }} // Ajuste o tamanho dos ícones aqui
           >
             <FaTwitter />
           </a>
+          
           <a
             href="https://www.youtube.com/@SaladeSecacao"
             target="_blank"
             rel="noopener noreferrer"
-            style={{ fontSize: "50px" }} // Ajuste o tamanho dos ícones aqui
+            style={{ fontSize: "50px", padding: "20px" }} // Ajuste o tamanho dos ícones aqui
           >
             <FaYoutube />
           </a>
