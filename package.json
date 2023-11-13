@@ -14,8 +14,13 @@
     "@emotion/styled": "^11.11.0",
     "eslint": "8.53.0",
     "eslint-config-next": "14.0.2",
+    "formidable": "^3.5.1",
     "framer-motion": "^10.16.4",
+    "moment": "^2.29.4",
+    "moment-timezone": "^0.5.43",
+    "mongodb": "^6.2.0",
     "next": "14.0.2",
+    "node": "^21.1.0",
     "react": "18.2.0",
     "react-dom": "18.2.0",
     "react-icons": "^4.11.0"

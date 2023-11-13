@@ -19,6 +19,9 @@ const Navbar = () => {
         w="100%"
       >
         <Flex align="center" justify="center">
+        <Text color="white" px={4}>
+            Colunas
+          </Text>
           <Text color="white" px={4}>
             Notícias
           </Text>
@@ -27,6 +30,9 @@ const Navbar = () => {
           </Box>
           <Text color="white" px={4}>
             Vídeos
+          </Text>
+          <Text color="white" px={4}>
+            Palpites
           </Text>
         </Flex>
       </Box>
