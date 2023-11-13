@@ -3,6 +3,7 @@ import { ChakraProvider, Box, Text, Center, Heading } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import { FaTwitter, FaYoutube, FaInstagram, FaTiktok } from "react-icons/fa";
 
+
 export default function Home() {
   return (
     <ChakraProvider>
@@ -71,3 +72,4 @@ export default function Home() {
     </ChakraProvider>
   );
 }
+//test
