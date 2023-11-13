@@ -1,5 +1,5 @@
 import Head from "next/head";
-import { ChakraProvider, Box, Text, Center } from "@chakra-ui/react";
+import { ChakraProvider, Box, Text, Center, Heading } from "@chakra-ui/react";
 import Navbar from "../components/Navbar";
 import { FaTwitter, FaYoutube, FaInstagram, FaTiktok } from "react-icons/fa";
 
@@ -24,7 +24,7 @@ export default function Home() {
       <br />
 
       <Center>
-        <Text>Site em construção</Text>
+        <Heading>Site em construção</Heading>
       </Center>
       <Center>
         <Text>Acesse nosso conteúdo abaixo</Text>
